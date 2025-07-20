@@ -9,7 +9,10 @@ const Landing: React.FC = () => {
       <div className="flex flex-col items-center">
         <Button title="Small Rounded-sm" styles="text-sm rounded-sm" />
         <Button title="Medium Rounded-md" styles="text-md rounded-md" />
-        <Button title="Large Rounded-full" styles="text-lg rounded-full" />
+        <Button
+          title="Large Rounded-full"
+          styles="text-lg rounded-lg rounded-full"
+        />
       </div>
     </div>
   );
